@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77AA1221C2EFB9300A702E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AA1211C2EFB9300A702E3 /* main.m */; };
+		A7E8DF8C1C300DBD0096F06A /* SerialReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E8DF8B1C300DBD0096F06A /* SerialReceiver.m */; };
+		A7E8DF911C301F330096F06A /* ConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E8DF901C301F330096F06A /* ConnectionController.m */; };
+		A7E8DF971C30229B0096F06A /* KeypressSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E8DF961C30229B0096F06A /* KeypressSimulator.m */; };
+		A7E8DF9B1C302DF70096F06A /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E8DF9A1C302DF70096F06A /* Pad.m */; };
+		CF5AEFFDD2B5595E0E2AC499 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494F6C676DDC12A7084A573C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A77AA11C1C2EFB9300A702E3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		494F6C676DDC12A7084A573C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC0C91C9CCC4DA2B832A273 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A77AA11E1C2EFB9300A702E3 /* CryptOfTheStructdancer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CryptOfTheStructdancer; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77AA1211C2EFB9300A702E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7E8DF8A1C300DBD0096F06A /* SerialReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialReceiver.h; sourceTree = "<group>"; };
+		A7E8DF8B1C300DBD0096F06A /* SerialReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialReceiver.m; sourceTree = "<group>"; };
+		A7E8DF8D1C300E710096F06A /* dbg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dbg.h; sourceTree = "<group>"; };
+		A7E8DF8E1C301EF70096F06A /* SerialRecvDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialRecvDataDelegate.h; sourceTree = "<group>"; };
+		A7E8DF8F1C301F330096F06A /* ConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionController.h; sourceTree = "<group>"; };
+		A7E8DF901C301F330096F06A /* ConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionController.m; sourceTree = "<group>"; };
+		A7E8DF951C30229B0096F06A /* KeypressSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypressSimulator.h; sourceTree = "<group>"; };
+		A7E8DF961C30229B0096F06A /* KeypressSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypressSimulator.m; sourceTree = "<group>"; };
+		A7E8DF981C3024D90096F06A /* enum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enum.h; sourceTree = "<group>"; };
+		A7E8DF991C302DF70096F06A /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
+		A7E8DF9A1C302DF70096F06A /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
+		EFC14BC57021B44E5E797D86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77AA11B1C2EFB9300A702E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5AEFFDD2B5595E0E2AC499 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794FE0B556A95FA81ACD6E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494F6C676DDC12A7084A573C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77AA1151C2EFB9300A702E3 = {
+			isa = PBXGroup;
+			children = (
+				A77AA1201C2EFB9300A702E3 /* CryptOfTheStructdancer */,
+				A77AA11F1C2EFB9300A702E3 /* Products */,
+				F4E6588C44493DF14E96CCC6 /* Pods */,
+				794FE0B556A95FA81ACD6E90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A77AA11F1C2EFB9300A702E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77AA11E1C2EFB9300A702E3 /* CryptOfTheStructdancer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77AA1201C2EFB9300A702E3 /* CryptOfTheStructdancer */ = {
+			isa = PBXGroup;
+			children = (
+				A7E8DF931C301F500096F06A /* Connection */,
+				A7E8DF941C3020CE0096F06A /* Implementation */,
+				A7E8DF921C301F390096F06A /* Delegates */,
+				A77AA1211C2EFB9300A702E3 /* main.m */,
+				A7E8DF8D1C300E710096F06A /* dbg.h */,
+				A7E8DF981C3024D90096F06A /* enum.h */,
+			);
+			path = CryptOfTheStructdancer;
+			sourceTree = "<group>";
+		};
+		A7E8DF921C301F390096F06A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A7E8DF8E1C301EF70096F06A /* SerialRecvDataDelegate.h */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		A7E8DF931C301F500096F06A /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				A7E8DF8A1C300DBD0096F06A /* SerialReceiver.h */,
+				A7E8DF8B1C300DBD0096F06A /* SerialReceiver.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		A7E8DF941C3020CE0096F06A /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				A7E8DF8F1C301F330096F06A /* ConnectionController.h */,
+				A7E8DF901C301F330096F06A /* ConnectionController.m */,
+				A7E8DF951C30229B0096F06A /* KeypressSimulator.h */,
+				A7E8DF961C30229B0096F06A /* KeypressSimulator.m */,
+				A7E8DF991C302DF70096F06A /* Pad.h */,
+				A7E8DF9A1C302DF70096F06A /* Pad.m */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		F4E6588C44493DF14E96CCC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFC14BC57021B44E5E797D86 /* Pods.debug.xcconfig */,
+				6BC0C91C9CCC4DA2B832A273 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77AA11D1C2EFB9300A702E3 /* CryptOfTheStructdancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77AA1251C2EFB9300A702E3 /* Build configuration list for PBXNativeTarget "CryptOfTheStructdancer" */;
+			buildPhases = (
+				40D4C175325C27518DF18491 /* Check Pods Manifest.lock */,
+				A77AA11A1C2EFB9300A702E3 /* Sources */,
+				A77AA11B1C2EFB9300A702E3 /* Frameworks */,
+				A77AA11C1C2EFB9300A702E3 /* CopyFiles */,
+				117C12392AC5435B2BAF88C1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptOfTheStructdancer;
+			productName = CryptOfTheStructdancer;
+			productReference = A77AA11E1C2EFB9300A702E3 /* CryptOfTheStructdancer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77AA1161C2EFB9300A702E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Leonardo Cascianelli";
+				TargetAttributes = {
+					A77AA11D1C2EFB9300A702E3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A77AA1191C2EFB9300A702E3 /* Build configuration list for PBXProject "CryptOfTheStructdancer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A77AA1151C2EFB9300A702E3;
+			productRefGroup = A77AA11F1C2EFB9300A702E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77AA11D1C2EFB9300A702E3 /* CryptOfTheStructdancer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		117C12392AC5435B2BAF88C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D4C175325C27518DF18491 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77AA11A1C2EFB9300A702E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E8DF971C30229B0096F06A /* KeypressSimulator.m in Sources */,
+				A7E8DF9B1C302DF70096F06A /* Pad.m in Sources */,
+				A7E8DF8C1C300DBD0096F06A /* SerialReceiver.m in Sources */,
+				A7E8DF911C301F330096F06A /* ConnectionController.m in Sources */,
+				A77AA1221C2EFB9300A702E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A77AA1231C2EFB9300A702E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A77AA1241C2EFB9300A702E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A77AA1261C2EFB9300A702E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC14BC57021B44E5E797D86 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A77AA1271C2EFB9300A702E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC0C91C9CCC4DA2B832A273 /* Pods.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77AA1191C2EFB9300A702E3 /* Build configuration list for PBXProject "CryptOfTheStructdancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77AA1231C2EFB9300A702E3 /* Debug */,
+				A77AA1241C2EFB9300A702E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77AA1251C2EFB9300A702E3 /* Build configuration list for PBXNativeTarget "CryptOfTheStructdancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77AA1261C2EFB9300A702E3 /* Debug */,
+				A77AA1271C2EFB9300A702E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77AA1161C2EFB9300A702E3 /* Project object */;
+}
